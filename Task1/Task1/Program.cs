@@ -53,7 +53,6 @@ namespace Task1
                 if (!date.Contains(buff[i].Substring(buff[i].IndexOf(',') + 1, 11)))
                 {
                     sw.Write("," + TransformDate(buff[i].Substring(buff[i].IndexOf(',') + 1, 11)));
-                    Console.WriteLine("," + TransformDate(buff[i].Substring(buff[i].IndexOf(',') + 1, 11)));
                     date += buff[i];
                 }
             }
@@ -98,7 +97,7 @@ namespace Task1
                     }
 
                     sw.Write("\n");
-                    hoursCount = 6;
+                    hoursCount = 7;
                     count = 0;
                 }
 
