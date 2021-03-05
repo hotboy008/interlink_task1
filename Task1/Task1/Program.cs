@@ -46,7 +46,7 @@ namespace Task1
 
             sr.BaseStream.Position = 1;
 
-            sw.Write("Name,Date");
+            sw.Write("Name / Date");
 
             for (int i = 1; i < buff.Length; i++)
             {
